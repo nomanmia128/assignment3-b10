@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3 b-10 </title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2f3974cf45.js" crossorigin="anonymous"></script>
+    <!-- tailwind and daisyul -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        .manrope {
+         font-family: "Manrope", sans-serif;
+        }
+          
+      </style>
+</head>
+<body class="manrope">
+    <!-- header section -->
+    <header>
+        <!-- nav section -->
+        <nav class="w-11/12 mx-auto bg-base-200">
+            <div class="navbar overflow-hidden">
+                <div class="navbar-start">
+                 
+                  <a class="btn btn-ghost text-3xl font-extrabold">
+                    <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] px-2.5 py-2 rounded-full"></i>
+                    Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg text-[#737373] font-medium">
+                    <li class="hover:text-black"><a>Home</a></li>
+                    <li class="hover:text-black"><a>Services</a></li>
+                    <li class="hover:text-black"><a>Portfolio</a></li>
+                    <li class="hover:text-black"><a>Blogs</a></li>
+                    <li class="hover:text-black"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="none flex items-center gap-5">
+                        <button class="bg-[#e4e3e3] px-2.5 py-2 rounded-full"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button class="bg-[#e4e3e3] px-2.5 py-2 rounded-full"><i class="fa-solid fa-cart-shopping"></i></button>
+                        <a class="btn bg-[#ABEF5F] rounded-3xl font-bold">Book Consult
+                            <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white px-2.5 py-2 rounded-full"></i>
+                        </a>
+                    </div>
+    
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                     <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg text-[#737373] font-medium right-0">
+                      <li class="hover:text-black"><a>Home</a></li>
+                      <li class="hover:text-black"><a>Services</a></li>
+                      <li class="hover:text-black"><a>Portfolio</a></li>
+                      <li class="hover:text-black"><a>Blogs</a></li>
+                      <li class="hover:text-black"><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+</body>
+</html>
